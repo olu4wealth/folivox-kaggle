@@ -1,0 +1,18 @@
+# Generated audio and source e-books (may be copyrighted, never commit)
+downloads/
+.kaggle-outputs/
+
+# Build artifacts and local environments
+build/
+dist/
+dist_new/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# The radio app is its own repository
+freevoice-radio/
+
+# Local logs
+*.log
