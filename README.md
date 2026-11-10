@@ -1,4 +1,4 @@
-# Freevoice — Folivox on Kaggle GPUs
+# Folivox on Kaggle GPUs
 
 A deployment toolkit for running **[Folivox](https://github.com/vatavale/folivox)** on
 free Kaggle GPUs: a notebook that installs and starts the app, a patch that makes its
@@ -36,8 +36,8 @@ Details and gotchas are in `README_KAGGLE.md`.
 
 - `downloads/` — generated audio and source e-books. Deliberately ignored: the
   output is derived from copyrighted books and does not belong in git.
-- `freevoice-radio/` — the desktop radio app, which is a separate project with its
-  own repository.
+- `freevoice-radio/` — the Freevoice Radio desktop app. Unrelated to this
+  notebook; it is its own project with its own repository.
 - `build/`, `dist_new/`, `__pycache__/` — build artifacts.
 
 ## Credit and licence
